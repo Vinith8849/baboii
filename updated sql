@@ -1,0 +1,9 @@
+select upper('babi')
+select lower('BALU")
+select * from employee as a inner join school as b on a.name =b.name
+select * from employee
+union  (doesn't allow duplicates)
+select * from school
+select * from employee
+union all (allows duplicates)
+select * from school
